@@ -10,7 +10,9 @@
 - qty_left
 
 ```to import```
-```js mongoimport --db db_name --collection collection_name --file data.json --port 27017  --jsonArray ```
+```js
+ mongoimport --db db_name --collection collection_name --file data.json --port 27017  --jsonArray 
+ ```
 - 1. Do the following queries
 - 2. top 10 purchased items
 - 3. top 10 cheapest items
